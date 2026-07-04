@@ -1,0 +1,30 @@
+--- Sheet: LIGHT FIXTURES ---
+SL.NO 	 CODE 	 DESCRIPTION 	 REFERENCE IMAGE 	 LOCATION 	 BODY COLOR 	 COLOR 	 UNITS 	 2F TOTAL 	 SUPPLY 	 SUPPLY
+TEMPERATURE 	 QUANTITY 	 Rate (INR) 	 Amount (INR)
+B 	 LUMINARIES
+Supply of following high efficiency LED luminaires with all accessories as required for exposed ceiling, false ceiling and high levels and very large size fixtures as listed below. All suspension kits will be supplied by Light fixture supplier with appropriate suspension arrangement. All linear luminaires to be of minimum 8feet with single driver unless or other specified in drawings, joining kits for liner fixtures to be included so that liner length looks seamless and joints free.
+Coupling of the linear light fixtures to be seamless with required joining kit and at the junction fixtures to be joints free.
+Diffusers to be  imported high quality & virgin grade PMMA diffusers.
+All the light fixtures and drivers to hev the 5 years warranty.
+1 	 T1 	 28W LED  Recessed mounted 2'x2' grid light with  CRCA powder coated white after phosphochromate treatment &  High transmittance PMMA opal diffuser for glare free symmetric light distribution and with integral electronic low THD (<10%) LED driver and lumen efficacy shall not be less the 120Lumens/Watt. 	 MEETING ROOMS,  CABIN,ODC,LAB,TRAINING ROOM,IT HELP DESK 	 WHITE 	 4500K/5700K 	 Nos 	 80 	 0
+2 	 T2 	 Pendant, cylindrical light with wide beam angle diffuser, Electronic control gear,  Suitable for 18W, LED lamps, Dia-100mm, 200mm ht ( white finish) 	 OPEN OFFICE 	 WHITE 	 4500K/5700K 	 Nos 	 5 	 0
+3 	 T3 	 15W  LED Recess mounted down lighter, low depth, downlight with frosted diffuser, Electronic control gear, LED lamps with integral electronic low THD (<10%) LED driver and lumen efficacy shall not be less the 100Lumens/Watt. Dia:100-130mm 	 PASSAGE, PHONE BOOTH,CAFETERIA 	 WHITE 	 4500K/5700K 	 Nos 	 196 	 0
+4 	 T4 	 3-6W  LED Recess mounted down lighter, low depth, downlight with frosted diffuser, Electronic control gear, LED lamps with integral electronic low THD (<10%) LED driver and lumen efficacy shall not be less the 100Lumens/Watt. Dia:35-40mm 	 PASSAGE, RECEPTION 	 WHITE 	 4500K/5700K 	 Nos 	 6
+5 	 T5 	 4 Feet, 18W  LED Tube light in box with complete lamps & all accessories with Electronic Control Gear. 	 STORE ROOM 	 WHITE 	 4500K/5700K 	 Nos 	 2 	 0
+6 	 T6 	 6W/ Meter Warm White LED Strip with aluminum trim D type housing  powder coated finis High transmittance PC diffuser for glare free symmetric light distribution and with electronic low THD (<10%) LED driver. Dimensions:  W 15.8mm X D 15.8mm. 	 RECEPTION & WASH ROOM 	 3000K/4500K/5700K 	 METAL WITH ACRYLIC TRIM 	 Mtr 	 85 	 0
+7 	 T7 	 Flexible Solid state high brightness SMD LED chips strip light-10W per Mtr with Homogeneous and dot free illumination, fixing clips and 3M tape. (To be quoted in Meters). 	 3000K/4500K/5700K 	 ACRYLIC FLEXIBLE 	 Mtr 	 RO
+8 	 D1 	 Linear metal Decorative Light-1- Reception Area 	 Nos 	 1 	 0
+9 	 D2 	 Acoustic Rectangular Decorative Light-2- 4 Pax meeting room 	 Nos 	 1 	 0
+10 	 D3 	 Decorative Light-3- Wash room 	 Nos 	 4 	 0
+SUB TOTAL ( WITHOUT TAXES) 	 0
+NOTES:
+All luminaires wattage should be designed by vendor in reference with lighting layouts as per the below illumination table.
+AREA‘s 	 PROPOSED LUX LEVELS
+Work Areas 	 350-400
+Meeting & Conference Room 	 400-450
+Borad Room 	 500-600
+Breakout & Collab Room 	 350
+Passages 	 200
+Reception 	 350
+Service Rooms (UPS, Electrical & AHU Rooms Etc. ) 	 325-350
+Restrooms 	 200-250
