@@ -14,20 +14,43 @@ import zipfile
 import subprocess
 import tempfile
 import shutil
-import openpyxl
+
+try:
+    import openpyxl
+except Exception:
+    openpyxl = None
 
 from flask import Flask, render_template, request, jsonify, send_file
 from werkzeug.utils import secure_filename
 
 # Import quotation automation module
-from quotation_automation import (
-    load_catalog,
-    parse_catalog_file,
-    parse_enquiry,
-    build_quote_rows,
-    QUOTE_HEADERS,
-    safe_float,
-)
+try:
+    from quotation_automation import (
+        load_catalog,
+        parse_catalog_file,
+        parse_enquiry,
+        build_quote_rows,
+        QUOTE_HEADERS,
+        safe_float,
+    )
+except Exception as exc:
+    print(f"Warning: quotation_automation import failed: {exc}")
+    load_catalog = lambda path: []
+    parse_catalog_file = lambda path: []
+    parse_enquiry = lambda enquiry, catalog: []
+    build_quote_rows = lambda parsed_items, catalog: []
+    QUOTE_HEADERS = [
+        "product_id",
+        "product_name",
+        "requirement",
+        "requested_quantity",
+        "unit",
+        "unit_price",
+        "discount",
+        "total_price",
+        "note",
+    ]
+    safe_float = lambda value, default=0.0: float(str(value).strip()) if str(value).strip() else default
 
 app = Flask(__name__)
 app.config["MAX_CONTENT_LENGTH"] = 16 * 1024 * 1024  # 16MB max upload
@@ -386,6 +409,9 @@ def run_gemini_vision_ocr(image_path, api_key):
 
 def parse_excel_enquiry(file_path):
     """Parse text from cells and extract/OCR embedded images from an Excel file."""
+    if openpyxl is None:
+        return "Excel parsing is unavailable because openpyxl is not installed."
+
     text_content = []
     
     # 1. Read sheet cell text using openpyxl
