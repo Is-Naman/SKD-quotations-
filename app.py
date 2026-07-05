@@ -42,8 +42,6 @@ os.makedirs(os.path.join(os.path.dirname(__file__), "quotations"), exist_ok=True
 ALLOWED_EXTENSIONS = {"csv", "json", "pdf", "jpg", "jpeg", "png", "tif", "tiff"}
 
 
-import google.generativeai as genai
-
 def sync_gemini_files(api_key):
     """Sync all PDFs and JPEGs in the uploads directory to Gemini."""
     from google import genai
